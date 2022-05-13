@@ -194,6 +194,7 @@ export default {
             self.$emit('closeModal')
             self.$emit('fetchTaskData')
             self.taskCompleted = null
+            self.taskName = null
           })
           .catch(function (error) {
             console.log(error)
